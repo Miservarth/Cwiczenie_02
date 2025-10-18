@@ -200,4 +200,4 @@ hist(Salix$Dist_to_channel,
 )
   
 
-setwd("C:/Users/Sebastian/")
+
