@@ -174,6 +174,8 @@ Accer.pseu <- reg_data[1:50, ]
 Alnus.inc <- reg_data[51:100, ]
 Salix <- reg_data[101:150, ]
 
+par(mfrow = c(1, 3))
+
 Accer.pseu<- reg_data[1:50, ]
 hist(Accer.pseu$Dist_to_channel,
     xlab = "odleglosc od koryta",
@@ -199,5 +201,6 @@ hist(Salix$Dist_to_channel,
      border = "white",
 )
   
+
 
 
